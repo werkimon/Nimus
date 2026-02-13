@@ -1,8 +1,8 @@
 {
   "name": "przyciskk",
   "version": "1.0.0",
-  "main": "src/wwElement.vue"
+  "type": "module",
   "dependencies": {
-      "@elevenlabs/client"
+    "@elevenlabs/client"
   }
 }
