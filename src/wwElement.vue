@@ -113,7 +113,6 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .el-call-button {
-  cursor: pointer;
   padding: 0.75rem 1.25rem;
   border-radius: 8px;
   border: none;
