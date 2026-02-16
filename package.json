@@ -1,8 +1,8 @@
 {
-  "name": "przyciskk",
+  "name": "elevenlabs-component",
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
-    "@elevenlabs/client": "0.14.0"
+    "@elevenlabs/client": "^0.14.0"
   }
 }
