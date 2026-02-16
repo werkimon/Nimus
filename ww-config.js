@@ -1,37 +1,18 @@
 export default {
   editor: {
-    label: {
-      en: "ElevenLabs Call Button"
-    }
+    label: 'ElevenLabs Button',
+    icon: 'microphone'
   },
-
   properties: {
     agentId: {
-      label: {
-        en: "Agent ID"
-      },
-      type: "Text",
-      bindable: true,
-      defaultValue: ""
+      label: 'Agent ID',
+      type: 'Text',
+      bindable: true
     }
   },
-
   events: [
-    {
-      name: "connected",
-      label: { en: "On Connected" }
-    },
-    {
-      name: "disconnected",
-      label: { en: "On Disconnected" }
-    },
-    {
-      name: "error",
-      label: { en: "On Error" }
-    },
-    {
-      name: "state-change",
-      label: { en: "On State Change" }
-    }
+    { name: 'connected', label: 'Connected' },
+    { name: 'disconnected', label: 'Disconnected' },
+    { name: 'error', label: 'Error' }
   ]
 }
